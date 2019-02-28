@@ -2,9 +2,9 @@
 
 1. Write all of the "initialize" methods (first for the "many" classes, then for the "belongs to" class), as well as attr_accessor
 
-2. Create some test data (making sure to pass in INSTANCES into the "belongs to"/"join" class) and make sure things work
+2. Create the @@all class variable, shovel all new instances into the @@all array, and create a getting class method
 
-3. Create the @@all class variable, shovel all new instances into the @@all array, and create a getting class method
+3. Create some test data (making sure to pass in INSTANCES into the "belongs to"/"join" class) and make sure things work
 
 4. Test code
 
